@@ -1,15 +1,17 @@
 Introduction to Jenkins
 =======================
 
-Download Vagrant Box at http://files.vagrantup.com/precise32.box (or precise64.box)
+Firstly, download a Vagrant Box at http://files.vagrantup.com/precise32.box (or precise64.box)
 
-Add a box by running the command below
+Then add a box by running the command below
 
 `vagrant box add jenkins http://files.vagrantup.com/precise32.box`
 
 or if you have already downloaded the box to your local machine, run
 
 `vagrant box add jenkins precise32.box`
+
+Finally, run `vagrant up` to start the virtual machine.
 
 
 Installing Jenkins on Ubuntu
