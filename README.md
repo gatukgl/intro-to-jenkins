@@ -46,8 +46,8 @@ Setting Up a Build Pipeline
 2. Create a unit test project.
   1. Set the build trigger to "build after other projects are built."
   2. Use the same workspace (custom workspace `/var/www/fizzbuzz`).
-3. Create another unit test project.
-4. Generate a report.
+3. Create another project to do whatever you want and add it to the pipeline.
+4. Generate a report in the unit test project.
   1. Run `vagrant ssh` to SSH to the Jenkins server.
   2. Run `sudo apt-get install python-setuptools`.
   3. Run `sudo easy_install pip`.
